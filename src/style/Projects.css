@@ -1,0 +1,48 @@
+#projects {
+    background: linear-gradient(180deg, #3B4D61, #222839) !important;
+
+}
+
+
+
+
+.projects img {
+    height: 80%;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.projects--header-text {
+    color: white !important;
+    background: linear-gradient(45deg, #A683B6, #E8B5FF);
+    cursor: pointer;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 34px;
+}
+
+
+
+.project--btn__active {
+    color: white !important;
+    background: linear-gradient(45deg, #A683B6, #E8B5FF);
+    transform: translateX(0px);
+    transition: all ease-in-out 2.0s;
+    opacity: 1;
+}
+
+.project--btn__inactive {
+    color: white !important;
+    background: linear-gradient(45deg, #A683B6, #E8B5FF);
+
+    transform: translateX(-300px);
+    transition: all ease-in 2.0s;
+    opacity: 0;
+
+}
+
+
+@media only screen and (max-width: 1000px) {}
